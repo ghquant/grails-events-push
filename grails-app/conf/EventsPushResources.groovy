@@ -1,7 +1,7 @@
 modules = {
     'atmosphere' {
         dependsOn 'jquery'
-        resource id:'js', url:[plugin: 'events-push', dir:'js/jquery', file:"jquery.atmosphere.js"],
+        resource id:'js', url:[plugin: 'events-push', dir:'js/jquery', file:"jquery.atmosphere.patched.js"],
             disposition:'head'
     }
 
